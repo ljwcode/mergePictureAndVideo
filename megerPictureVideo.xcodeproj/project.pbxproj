@@ -1,0 +1,458 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		63116023255CDF5C000566DC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 63116022255CDF5C000566DC /* AppDelegate.m */; };
+		6311602E255CDF5D000566DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6311602D255CDF5D000566DC /* Assets.xcassets */; };
+		63116031255CDF5D000566DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6311602F255CDF5D000566DC /* LaunchScreen.storyboard */; };
+		63116034255CDF5D000566DC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 63116033255CDF5D000566DC /* main.m */; };
+		63116040255CE0D6000566DC /* SELPhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6311603E255CE0D6000566DC /* SELPhotoViewController.m */; };
+		63116041255CE0D6000566DC /* SELPhotoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6311603F255CE0D6000566DC /* SELPhotoViewController.xib */; };
+		63116052255CE8AE000566DC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63116050255CE8AE000566DC /* ViewController.m */; };
+		63116053255CE8AE000566DC /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 63116051255CE8AE000566DC /* ViewController.xib */; };
+		63116059255D17A8000566DC /* assetModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 63116058255D17A8000566DC /* assetModel.m */; };
+		63116060255D25C2000566DC /* assetPhotoCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6311605E255D25C2000566DC /* assetPhotoCollectionViewCell.m */; };
+		63116061255D25C2000566DC /* assetPhotoCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6311605F255D25C2000566DC /* assetPhotoCollectionViewCell.xib */; };
+		AB2A1506D0DBCE35CAD0A112 /* Pods_megerPictureVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F0243EF4725762501B8D7D3 /* Pods_megerPictureVideo.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		44CE5E307411F72564B5C4C4 /* Pods-megerPictureVideo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-megerPictureVideo.release.xcconfig"; path = "Target Support Files/Pods-megerPictureVideo/Pods-megerPictureVideo.release.xcconfig"; sourceTree = "<group>"; };
+		6311601E255CDF5C000566DC /* megerPictureVideo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = megerPictureVideo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		63116021255CDF5C000566DC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		63116022255CDF5C000566DC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6311602D255CDF5D000566DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		63116030255CDF5D000566DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		63116032255CDF5D000566DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63116033255CDF5D000566DC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6311603D255CE0D6000566DC /* SELPhotoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SELPhotoViewController.h; sourceTree = "<group>"; };
+		6311603E255CE0D6000566DC /* SELPhotoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SELPhotoViewController.m; sourceTree = "<group>"; };
+		6311603F255CE0D6000566DC /* SELPhotoViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SELPhotoViewController.xib; sourceTree = "<group>"; };
+		6311604F255CE8AE000566DC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		63116050255CE8AE000566DC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		63116051255CE8AE000566DC /* ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		63116057255D17A8000566DC /* assetModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = assetModel.h; sourceTree = "<group>"; };
+		63116058255D17A8000566DC /* assetModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = assetModel.m; sourceTree = "<group>"; };
+		6311605D255D25C2000566DC /* assetPhotoCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = assetPhotoCollectionViewCell.h; sourceTree = "<group>"; };
+		6311605E255D25C2000566DC /* assetPhotoCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = assetPhotoCollectionViewCell.m; sourceTree = "<group>"; };
+		6311605F255D25C2000566DC /* assetPhotoCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = assetPhotoCollectionViewCell.xib; sourceTree = "<group>"; };
+		6939FF93814B1C03A4F2B8D8 /* Pods-megerPictureVideo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-megerPictureVideo.debug.xcconfig"; path = "Target Support Files/Pods-megerPictureVideo/Pods-megerPictureVideo.debug.xcconfig"; sourceTree = "<group>"; };
+		9F0243EF4725762501B8D7D3 /* Pods_megerPictureVideo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_megerPictureVideo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6311601B255CDF5C000566DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB2A1506D0DBCE35CAD0A112 /* Pods_megerPictureVideo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		63116015255CDF5C000566DC = {
+			isa = PBXGroup;
+			children = (
+				6311604F255CE8AE000566DC /* ViewController.h */,
+				63116050255CE8AE000566DC /* ViewController.m */,
+				63116051255CE8AE000566DC /* ViewController.xib */,
+				63116020255CDF5C000566DC /* megerPictureVideo */,
+				6311601F255CDF5C000566DC /* Products */,
+				6C4BD51A402BCD7C9E4DD40F /* Pods */,
+				BA5C3A8DB8ADD37926AB595D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6311601F255CDF5C000566DC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6311601E255CDF5C000566DC /* megerPictureVideo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		63116020255CDF5C000566DC /* megerPictureVideo */ = {
+			isa = PBXGroup;
+			children = (
+				6311605C255D2570000566DC /* view */,
+				63116056255D1721000566DC /* model */,
+				6311603C255CE075000566DC /* viewController */,
+				63116021255CDF5C000566DC /* AppDelegate.h */,
+				63116022255CDF5C000566DC /* AppDelegate.m */,
+				6311602D255CDF5D000566DC /* Assets.xcassets */,
+				6311602F255CDF5D000566DC /* LaunchScreen.storyboard */,
+				63116032255CDF5D000566DC /* Info.plist */,
+				63116033255CDF5D000566DC /* main.m */,
+			);
+			path = megerPictureVideo;
+			sourceTree = "<group>";
+		};
+		6311603C255CE075000566DC /* viewController */ = {
+			isa = PBXGroup;
+			children = (
+				6311603D255CE0D6000566DC /* SELPhotoViewController.h */,
+				6311603E255CE0D6000566DC /* SELPhotoViewController.m */,
+				6311603F255CE0D6000566DC /* SELPhotoViewController.xib */,
+			);
+			path = viewController;
+			sourceTree = "<group>";
+		};
+		63116056255D1721000566DC /* model */ = {
+			isa = PBXGroup;
+			children = (
+				63116057255D17A8000566DC /* assetModel.h */,
+				63116058255D17A8000566DC /* assetModel.m */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		6311605C255D2570000566DC /* view */ = {
+			isa = PBXGroup;
+			children = (
+				6311605D255D25C2000566DC /* assetPhotoCollectionViewCell.h */,
+				6311605E255D25C2000566DC /* assetPhotoCollectionViewCell.m */,
+				6311605F255D25C2000566DC /* assetPhotoCollectionViewCell.xib */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		6C4BD51A402BCD7C9E4DD40F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6939FF93814B1C03A4F2B8D8 /* Pods-megerPictureVideo.debug.xcconfig */,
+				44CE5E307411F72564B5C4C4 /* Pods-megerPictureVideo.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		BA5C3A8DB8ADD37926AB595D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9F0243EF4725762501B8D7D3 /* Pods_megerPictureVideo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6311601D255CDF5C000566DC /* megerPictureVideo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63116037255CDF5D000566DC /* Build configuration list for PBXNativeTarget "megerPictureVideo" */;
+			buildPhases = (
+				90678EDAFDE0982110F86D7A /* [CP] Check Pods Manifest.lock */,
+				6311601A255CDF5C000566DC /* Sources */,
+				6311601B255CDF5C000566DC /* Frameworks */,
+				6311601C255CDF5C000566DC /* Resources */,
+				505D443A2AFAEF8C896C6FC3 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = megerPictureVideo;
+			productName = megerPictureVideo;
+			productReference = 6311601E255CDF5C000566DC /* megerPictureVideo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		63116016255CDF5C000566DC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					6311601D255CDF5C000566DC = {
+						CreatedOnToolsVersion = 12.1;
+					};
+				};
+			};
+			buildConfigurationList = 63116019255CDF5C000566DC /* Build configuration list for PBXProject "megerPictureVideo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 63116015255CDF5C000566DC;
+			productRefGroup = 6311601F255CDF5C000566DC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6311601D255CDF5C000566DC /* megerPictureVideo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6311601C255CDF5C000566DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63116041255CE0D6000566DC /* SELPhotoViewController.xib in Resources */,
+				63116031255CDF5D000566DC /* LaunchScreen.storyboard in Resources */,
+				63116053255CE8AE000566DC /* ViewController.xib in Resources */,
+				63116061255D25C2000566DC /* assetPhotoCollectionViewCell.xib in Resources */,
+				6311602E255CDF5D000566DC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		505D443A2AFAEF8C896C6FC3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-megerPictureVideo/Pods-megerPictureVideo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-megerPictureVideo/Pods-megerPictureVideo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-megerPictureVideo/Pods-megerPictureVideo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		90678EDAFDE0982110F86D7A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-megerPictureVideo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6311601A255CDF5C000566DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63116040255CE0D6000566DC /* SELPhotoViewController.m in Sources */,
+				63116023255CDF5C000566DC /* AppDelegate.m in Sources */,
+				63116060255D25C2000566DC /* assetPhotoCollectionViewCell.m in Sources */,
+				63116059255D17A8000566DC /* assetModel.m in Sources */,
+				63116034255CDF5D000566DC /* main.m in Sources */,
+				63116052255CE8AE000566DC /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6311602F255CDF5D000566DC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63116030255CDF5D000566DC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		63116035255CDF5D000566DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		63116036255CDF5D000566DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		63116038255CDF5D000566DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6939FF93814B1C03A4F2B8D8 /* Pods-megerPictureVideo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 479DV2RK3V;
+				INFOPLIST_FILE = megerPictureVideo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ljwcode.megerPictureVideo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		63116039255CDF5D000566DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 44CE5E307411F72564B5C4C4 /* Pods-megerPictureVideo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 479DV2RK3V;
+				INFOPLIST_FILE = megerPictureVideo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ljwcode.megerPictureVideo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		63116019255CDF5C000566DC /* Build configuration list for PBXProject "megerPictureVideo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63116035255CDF5D000566DC /* Debug */,
+				63116036255CDF5D000566DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63116037255CDF5D000566DC /* Build configuration list for PBXNativeTarget "megerPictureVideo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63116038255CDF5D000566DC /* Debug */,
+				63116039255CDF5D000566DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 63116016255CDF5C000566DC /* Project object */;
+}
