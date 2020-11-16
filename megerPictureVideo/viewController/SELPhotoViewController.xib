@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17126"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -24,13 +24,9 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="XIJ-QA-OTe">
-                    <rect key="frame" x="0.0" y="44" width="414" height="673"/>
+                    <rect key="frame" x="0.0" y="44" width="414" height="759"/>
                     <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                    <constraints>
-                        <constraint firstAttribute="width" constant="414" id="1Iq-DU-7Pr"/>
-                        <constraint firstAttribute="height" constant="673" id="K4S-aG-cur"/>
-                    </constraints>
-                    <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="uQe-jE-PuA">
+                    <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="jR1-bM-zvr">
                         <size key="itemSize" width="128" height="128"/>
                         <size key="headerReferenceSize" width="0.0" height="0.0"/>
                         <size key="footerReferenceSize" width="0.0" height="0.0"/>
@@ -38,7 +34,7 @@
                     </collectionViewFlowLayout>
                 </collectionView>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="b4B-B4-eQk">
-                    <rect key="frame" x="0.0" y="784" width="414" height="85"/>
+                    <rect key="frame" x="0.0" y="811" width="414" height="85"/>
                     <subviews>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="视频(0)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="scD-kz-N2P">
                             <rect key="frame" x="73" y="9" width="80" height="35"/>
@@ -104,8 +100,9 @@
                 <constraint firstItem="b4B-B4-eQk" firstAttribute="trailing" secondItem="Q5M-cg-NOt" secondAttribute="trailing" id="8BA-oE-2Zh"/>
                 <constraint firstItem="XIJ-QA-OTe" firstAttribute="trailing" secondItem="Q5M-cg-NOt" secondAttribute="trailing" id="Eis-IT-QoL"/>
                 <constraint firstItem="XIJ-QA-OTe" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" id="GPI-rb-Y8Q"/>
+                <constraint firstItem="b4B-B4-eQk" firstAttribute="top" secondItem="XIJ-QA-OTe" secondAttribute="bottom" constant="8" id="QFS-yk-3pH"/>
                 <constraint firstItem="b4B-B4-eQk" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" id="fLv-ER-4O6"/>
-                <constraint firstAttribute="bottom" secondItem="b4B-B4-eQk" secondAttribute="bottom" constant="27" id="vM0-14-Yrw"/>
+                <constraint firstAttribute="bottom" secondItem="b4B-B4-eQk" secondAttribute="bottom" id="vM0-14-Yrw"/>
             </constraints>
             <point key="canvasLocation" x="140.57971014492756" y="97.767857142857139"/>
         </view>

@@ -10,6 +10,7 @@
 #import <Photos/Photos.h>
 #import "assetPhotoCollectionViewCell.h"
 #import <MBProgressHUD_Add/UIViewController+MBPHUD.h>
+#import "SELPhotoEditViewController.h"
 
 #define kScreenWidth [UIScreen mainScreen].bounds.size.width
 #define kScreenHeight [UIScreen mainScreen].bounds.size.height
@@ -44,7 +45,7 @@ static NSString *PhotoCollectionViewID =  @"assetPhotoCollectionViewCell";
     [super viewDidLoad];
     self.assetsCollectionView.delegate = self;
     self.assetsCollectionView.dataSource = self;
-    self.itemSize = CGSizeMake((kScreenWidth-10)/5.f, (kScreenWidth-10)/5.f);
+    self.itemSize = CGSizeMake(kScreenWidth/5.f, kScreenWidth/5.f);
     [self.assetsCollectionView registerNib:[UINib nibWithNibName:PhotoCollectionViewID bundle:[NSBundle mainBundle]] forCellWithReuseIdentifier:PhotoCollectionViewID];
     
     self.completeBtn.layer.cornerRadius = 8.f;
@@ -137,7 +138,7 @@ static NSString *PhotoCollectionViewID =  @"assetPhotoCollectionViewCell";
 }
 
 -(UIEdgeInsets)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout *)collectionViewLayout insetForSectionAtIndex:(NSInteger)section{
-    return UIEdgeInsetsMake(2, 2, 2, 0);
+    return UIEdgeInsetsMake(2, 2, 2, 2);
 }
 
 #pragma mark ---- load data
@@ -173,7 +174,12 @@ static NSString *PhotoCollectionViewID =  @"assetPhotoCollectionViewCell";
 #pragma mark ------ 点击事件
 
 -(void)completeHandle:(UIButton *)sender{
-    NSLog(@"已选择图片/视频%@",self.selectedDataArray);
+    if(self.selectedDataArray.count > 0){
+        NSLog(@"已选择图片/视频%@",self.selectedDataArray);
+        SELPhotoEditViewController *SELPhotoEditVC = [[SELPhotoEditViewController alloc]init];
+        [self.navigationController pushViewController:SELPhotoEditVC animated:YES];
+    }
+    
 }
 
 /*

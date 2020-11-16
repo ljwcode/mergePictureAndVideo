@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -18,6 +18,17 @@
 		63116059255D17A8000566DC /* assetModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 63116058255D17A8000566DC /* assetModel.m */; };
 		63116060255D25C2000566DC /* assetPhotoCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6311605E255D25C2000566DC /* assetPhotoCollectionViewCell.m */; };
 		63116061255D25C2000566DC /* assetPhotoCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6311605F255D25C2000566DC /* assetPhotoCollectionViewCell.xib */; };
+		63FB9FC92562825300167B6D /* SELPhotoEditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63FB9FC72562825300167B6D /* SELPhotoEditViewController.m */; };
+		63FB9FCA2562825300167B6D /* SELPhotoEditViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 63FB9FC82562825300167B6D /* SELPhotoEditViewController.xib */; };
+		63FB9FD225629CF800167B6D /* bg01.png in Resources */ = {isa = PBXBuildFile; fileRef = 63FB9FCF25629CF800167B6D /* bg01.png */; };
+		63FB9FD325629CF800167B6D /* bg03.png in Resources */ = {isa = PBXBuildFile; fileRef = 63FB9FD025629CF800167B6D /* bg03.png */; };
+		63FB9FD425629CF800167B6D /* bg02.png in Resources */ = {isa = PBXBuildFile; fileRef = 63FB9FD125629CF800167B6D /* bg02.png */; };
+		63FB9FDA25629E4900167B6D /* SELThumbnailCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 63FB9FD825629E4900167B6D /* SELThumbnailCollectionViewCell.m */; };
+		63FB9FDB25629E4900167B6D /* SELThumbnailCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 63FB9FD925629E4900167B6D /* SELThumbnailCollectionViewCell.xib */; };
+		63FB9FE025629F4600167B6D /* SELBgCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 63FB9FDE25629F4600167B6D /* SELBgCollectionViewCell.m */; };
+		63FB9FE125629F4600167B6D /* SELBgCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 63FB9FDF25629F4600167B6D /* SELBgCollectionViewCell.xib */; };
+		63FB9FE62562A2E800167B6D /* SELBgMusicCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 63FB9FE42562A2E800167B6D /* SELBgMusicCollectionViewCell.m */; };
+		63FB9FE72562A2E800167B6D /* SELBgMusicCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 63FB9FE52562A2E800167B6D /* SELBgMusicCollectionViewCell.xib */; };
 		AB2A1506D0DBCE35CAD0A112 /* Pods_megerPictureVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F0243EF4725762501B8D7D3 /* Pods_megerPictureVideo.framework */; };
 /* End PBXBuildFile section */
 
@@ -41,6 +52,21 @@
 		6311605D255D25C2000566DC /* assetPhotoCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = assetPhotoCollectionViewCell.h; sourceTree = "<group>"; };
 		6311605E255D25C2000566DC /* assetPhotoCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = assetPhotoCollectionViewCell.m; sourceTree = "<group>"; };
 		6311605F255D25C2000566DC /* assetPhotoCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = assetPhotoCollectionViewCell.xib; sourceTree = "<group>"; };
+		63FB9FC62562825300167B6D /* SELPhotoEditViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SELPhotoEditViewController.h; sourceTree = "<group>"; };
+		63FB9FC72562825300167B6D /* SELPhotoEditViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SELPhotoEditViewController.m; sourceTree = "<group>"; };
+		63FB9FC82562825300167B6D /* SELPhotoEditViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SELPhotoEditViewController.xib; sourceTree = "<group>"; };
+		63FB9FCF25629CF800167B6D /* bg01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg01.png; sourceTree = "<group>"; };
+		63FB9FD025629CF800167B6D /* bg03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg03.png; sourceTree = "<group>"; };
+		63FB9FD125629CF800167B6D /* bg02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg02.png; sourceTree = "<group>"; };
+		63FB9FD725629E4900167B6D /* SELThumbnailCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SELThumbnailCollectionViewCell.h; sourceTree = "<group>"; };
+		63FB9FD825629E4900167B6D /* SELThumbnailCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SELThumbnailCollectionViewCell.m; sourceTree = "<group>"; };
+		63FB9FD925629E4900167B6D /* SELThumbnailCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SELThumbnailCollectionViewCell.xib; sourceTree = "<group>"; };
+		63FB9FDD25629F4600167B6D /* SELBgCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SELBgCollectionViewCell.h; sourceTree = "<group>"; };
+		63FB9FDE25629F4600167B6D /* SELBgCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SELBgCollectionViewCell.m; sourceTree = "<group>"; };
+		63FB9FDF25629F4600167B6D /* SELBgCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SELBgCollectionViewCell.xib; sourceTree = "<group>"; };
+		63FB9FE32562A2E800167B6D /* SELBgMusicCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SELBgMusicCollectionViewCell.h; sourceTree = "<group>"; };
+		63FB9FE42562A2E800167B6D /* SELBgMusicCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SELBgMusicCollectionViewCell.m; sourceTree = "<group>"; };
+		63FB9FE52562A2E800167B6D /* SELBgMusicCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SELBgMusicCollectionViewCell.xib; sourceTree = "<group>"; };
 		6939FF93814B1C03A4F2B8D8 /* Pods-megerPictureVideo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-megerPictureVideo.debug.xcconfig"; path = "Target Support Files/Pods-megerPictureVideo/Pods-megerPictureVideo.debug.xcconfig"; sourceTree = "<group>"; };
 		9F0243EF4725762501B8D7D3 /* Pods_megerPictureVideo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_megerPictureVideo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -81,6 +107,9 @@
 		63116020255CDF5C000566DC /* megerPictureVideo */ = {
 			isa = PBXGroup;
 			children = (
+				63FB9FCF25629CF800167B6D /* bg01.png */,
+				63FB9FD125629CF800167B6D /* bg02.png */,
+				63FB9FD025629CF800167B6D /* bg03.png */,
 				6311605C255D2570000566DC /* view */,
 				63116056255D1721000566DC /* model */,
 				6311603C255CE075000566DC /* viewController */,
@@ -100,6 +129,9 @@
 				6311603D255CE0D6000566DC /* SELPhotoViewController.h */,
 				6311603E255CE0D6000566DC /* SELPhotoViewController.m */,
 				6311603F255CE0D6000566DC /* SELPhotoViewController.xib */,
+				63FB9FC62562825300167B6D /* SELPhotoEditViewController.h */,
+				63FB9FC72562825300167B6D /* SELPhotoEditViewController.m */,
+				63FB9FC82562825300167B6D /* SELPhotoEditViewController.xib */,
 			);
 			path = viewController;
 			sourceTree = "<group>";
@@ -119,6 +151,15 @@
 				6311605D255D25C2000566DC /* assetPhotoCollectionViewCell.h */,
 				6311605E255D25C2000566DC /* assetPhotoCollectionViewCell.m */,
 				6311605F255D25C2000566DC /* assetPhotoCollectionViewCell.xib */,
+				63FB9FD725629E4900167B6D /* SELThumbnailCollectionViewCell.h */,
+				63FB9FD825629E4900167B6D /* SELThumbnailCollectionViewCell.m */,
+				63FB9FD925629E4900167B6D /* SELThumbnailCollectionViewCell.xib */,
+				63FB9FDD25629F4600167B6D /* SELBgCollectionViewCell.h */,
+				63FB9FDE25629F4600167B6D /* SELBgCollectionViewCell.m */,
+				63FB9FDF25629F4600167B6D /* SELBgCollectionViewCell.xib */,
+				63FB9FE32562A2E800167B6D /* SELBgMusicCollectionViewCell.h */,
+				63FB9FE42562A2E800167B6D /* SELBgMusicCollectionViewCell.m */,
+				63FB9FE52562A2E800167B6D /* SELBgMusicCollectionViewCell.xib */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -129,7 +170,6 @@
 				6939FF93814B1C03A4F2B8D8 /* Pods-megerPictureVideo.debug.xcconfig */,
 				44CE5E307411F72564B5C4C4 /* Pods-megerPictureVideo.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -199,10 +239,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63FB9FCA2562825300167B6D /* SELPhotoEditViewController.xib in Resources */,
+				63FB9FD425629CF800167B6D /* bg02.png in Resources */,
+				63FB9FDB25629E4900167B6D /* SELThumbnailCollectionViewCell.xib in Resources */,
+				63FB9FD225629CF800167B6D /* bg01.png in Resources */,
 				63116041255CE0D6000566DC /* SELPhotoViewController.xib in Resources */,
 				63116031255CDF5D000566DC /* LaunchScreen.storyboard in Resources */,
 				63116053255CE8AE000566DC /* ViewController.xib in Resources */,
 				63116061255D25C2000566DC /* assetPhotoCollectionViewCell.xib in Resources */,
+				63FB9FE72562A2E800167B6D /* SELBgMusicCollectionViewCell.xib in Resources */,
+				63FB9FE125629F4600167B6D /* SELBgCollectionViewCell.xib in Resources */,
+				63FB9FD325629CF800167B6D /* bg03.png in Resources */,
 				6311602E255CDF5D000566DC /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,10 +304,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				63116040255CE0D6000566DC /* SELPhotoViewController.m in Sources */,
+				63FB9FC92562825300167B6D /* SELPhotoEditViewController.m in Sources */,
 				63116023255CDF5C000566DC /* AppDelegate.m in Sources */,
 				63116060255D25C2000566DC /* assetPhotoCollectionViewCell.m in Sources */,
+				63FB9FDA25629E4900167B6D /* SELThumbnailCollectionViewCell.m in Sources */,
+				63FB9FE025629F4600167B6D /* SELBgCollectionViewCell.m in Sources */,
 				63116059255D17A8000566DC /* assetModel.m in Sources */,
 				63116034255CDF5D000566DC /* main.m in Sources */,
+				63FB9FE62562A2E800167B6D /* SELBgMusicCollectionViewCell.m in Sources */,
 				63116052255CE8AE000566DC /* ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
